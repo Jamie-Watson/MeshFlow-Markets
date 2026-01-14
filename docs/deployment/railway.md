@@ -25,7 +25,7 @@ Go to [railway.com](https://railway.com) and sign up (free tier available, no cr
 1. In Railway, click **New Project** → **Deploy from GitHub repo**
 2. Connect your GitHub account if prompted
 3. Select your repository
-4. Railway will detect the Dockerfile and start building
+4. Railway will detect the Dockerfile and start building (expect 4-5 minutes)
 
 ## 4. Configure Environment Variables
 
