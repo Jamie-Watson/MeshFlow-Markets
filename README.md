@@ -38,6 +38,10 @@ Agents showing progressive complexity:
 | Advanced | [`changelog-github.yaml`](configs/agents/changelog-github.yaml)     | Custom Python tools ([`git_tools.py`](src/git_tools.py)) for GitHub API |
 | Advanced | [`docs-agent.yaml`](configs/agents/docs-agent.yaml)                 | MCP integration (Context7) for live documentation lookup                |
 
+### Demo: Google Antigravity + Changelog GitHub Agent
+
+https://github.com/user-attachments/assets/a699e77f-7796-442e-8684-bf6679422a60
+
 Try: _"Generate a changelog for SolaceLabs/solace-agent-mesh"_ or _"Look up the Next.js App Router docs"_
 
 ---
