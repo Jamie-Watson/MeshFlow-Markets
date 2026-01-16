@@ -15,6 +15,8 @@ LLM_SERVICE_PLANNING_MODEL_NAME=openai/zai-glm-4.7
 LLM_SERVICE_GENERAL_MODEL_NAME=openai/zai-glm-4.7
 ```
 
+> **Note:** Use these model names exactly as shown. The `openai/` prefix and model IDs are specific to Cerebras's API—other model names will fail silently.
+
 **Free tier:** 1M tokens/day
 
 ### Alternative Model
