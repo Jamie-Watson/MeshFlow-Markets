@@ -32,15 +32,15 @@ See [Vibe Coding Guide](docs/vibe-coding.md) for setup and known limitations.
 
 Quick walkthroughs showing how to use each tool:
 
-### Google Antigravity + CLI
+### Google Antigravity | SAM via CLI
 
 https://github.com/user-attachments/assets/a699e77f-7796-442e-8684-bf6679422a60
 
-### Gemini CLI + Docker
+### Gemini CLI | SAM via Docker
 
 https://github.com/user-attachments/assets/adcedaac-2e2c-461a-a77d-11eeba592f73
 
-### Claude Code + Railway
+### Claude Code | SAM via Railway
 
 https://github.com/user-attachments/assets/bded17cd-cfc8-4269-8933-92883792bcd3
 
