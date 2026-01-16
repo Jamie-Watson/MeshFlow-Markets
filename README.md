@@ -48,6 +48,10 @@ https://github.com/user-attachments/assets/a699e77f-7796-442e-8684-bf6679422a60
 
 https://github.com/user-attachments/assets/adcedaac-2e2c-461a-a77d-11eeba592f73
 
+### Demo: Claude Code + Railway
+
+https://github.com/user-attachments/assets/3c9d150b-4abd-4f75-bba3-fc3162e926e2
+
 ---
 
 ## Resources
