@@ -4,7 +4,7 @@ WORKDIR /app
 COPY pyproject.toml uv.lock ./
 RUN uv export > requirements.txt
 
-FROM solace/solace-agent-mesh:1.13.3
+FROM my-sam-base:latest
 
 USER root
 COPY --from=builder /app/requirements.txt .
