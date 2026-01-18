@@ -8,7 +8,9 @@ FROM my-sam-base:latest
 
 USER root
 COPY --from=builder /app/requirements.txt .
-RUN python3.11 -m pip install --no-cache-dir -r requirements.txt
+# Install only the additional dependencies, excluding solace-agent-mesh since it's already in the base image
+RUN grep -v "solace-agent-mesh" requirements.txt > requirements-filtered.txt && \
+    python3.11 -m pip install --no-cache-dir -r requirements-filtered.txt
 
 USER solaceai
 COPY --chown=solaceai:solaceai configs/ /app/configs/
