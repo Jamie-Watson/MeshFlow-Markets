@@ -5,4 +5,5 @@ description = "Solace Agent Mesh hackathon quickstart template"
 requires-python = "==3.11.*"
 dependencies = [
     "PyGithub==2.8.1",
+    "sam-webhook-gateway @ git+https://github.com/SolaceLabs/solace-agent-mesh-core-plugins#subdirectory=sam-webhook-gateway"
 ]

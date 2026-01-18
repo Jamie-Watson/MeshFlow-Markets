@@ -1,5 +1,7 @@
 FROM ghcr.io/astral-sh/uv:python3.11-trixie-slim AS builder
 
+RUN apt-get update && apt-get install -y git && rm -rf /var/lib/apt/lists/*
+
 WORKDIR /app
 COPY pyproject.toml uv.lock ./
 RUN uv export > requirements.txt
